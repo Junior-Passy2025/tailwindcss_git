@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  },
+  "name": "git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev" : "tailwindcss -i /src/assets/css/input.css -o ./src/assets/css/output.css --watch",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junior-Passy2025/tailwindcss_git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junior-Passy2025/tailwindcss_git/issues"
+  },
+  "homepage": "https://github.com/Junior-Passy2025/tailwindcss_git#readme",
+  "description": ""
+}
